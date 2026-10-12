@@ -1,6 +1,7 @@
 #include "windhawk_compat.hpp"
 #include "interop.hpp"
 #include <minhook.h>
+#include <objbase.h>
 #include <atomic>
 #include <cstdarg>
 #include <filesystem>
