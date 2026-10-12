@@ -48,7 +48,7 @@ struct SYMBOL_HOOK {
           pHookFunction(reinterpret_cast<void*>(hook)),
           optional(isOptional) {
         for (PCWSTR candidate : candidates) {
-            if (symbolsCount >= _countof(symbols)) {
+            if (symbolsCount >= (sizeof(symbols) / sizeof(symbols[0]))) {
                 break;
             }
             symbols[symbolsCount++] = candidate;
