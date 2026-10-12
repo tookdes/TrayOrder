@@ -8,8 +8,8 @@ namespace trayorder {
 inline constexpr wchar_t kCommandMessageName[] = L"TrayOrder.Command.v1";
 inline constexpr wchar_t kRegistryRoot[] = L"Software\\TrayOrder";
 inline constexpr wchar_t kSettingsKey[] = L"Software\\TrayOrder\\Settings";
-inline constexpr wchar_t kStateKey[] = L"Softwar\\TrayOrder\\State";
-inline constexpr wchar_t kRunKeyValue[] = L"Softwar\\Microsoft\\Windows\\CurrentVersion\\Run";
+inline constexpr wchar_t kStateKey[] = L"Software\\TrayOrder\\State";
+inline constexpr wchar_t kRunKey[] = L"Software\\Microsoft\\Windows\\CurrentVersion\\Run";
 inline constexpr wchar_t kRunValueName[] = L"TrayOrder";
 inline constexpr wchar_t kCanonicalValueName[] = L"CanonicalOrderV200";
 
